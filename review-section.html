@@ -1,0 +1,50 @@
+<section class="inkphase-review" aria-labelledby="inkphase-review-heading">
+  <style>
+    .inkphase-review,.inkphase-review *{box-sizing:border-box}
+    .inkphase-review{display:flex;justify-content:center;padding:64px 20px;font-family:Inter,"SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+    .inkphase-review__card{position:relative;isolation:isolate;width:100%;max-width:420px;overflow:hidden;border:1px solid #292929;border-radius:28px;background:#0d0d0d;box-shadow:0 24px 64px rgb(0 0 0 / 24%),inset 0 1px 0 rgb(255 255 255 / 4%)}
+    .inkphase-review__card::before{content:"";position:absolute;z-index:1;top:0;left:12%;width:76%;height:1px;pointer-events:none;background:linear-gradient(90deg,transparent,rgb(255 255 255 / 46%) 50%,transparent)}
+    .inkphase-review__action{display:flex;flex-direction:column;align-items:center;padding:32px;text-align:center;background:radial-gradient(ellipse at 50% 0,rgb(255 255 255 / 3.5%),transparent 76%)}
+    .inkphase-review__heading{max-width:350px;margin:0;color:#f5f5f5;font-size:clamp(18px,4.4vw,21px);font-weight:650;line-height:1.45;letter-spacing:-.035em;text-wrap:balance}
+    .inkphase-review__description{margin:20px 0 10px;color:#969696;font-size:12px;font-weight:400;line-height:1.6;letter-spacing:-.01em;text-wrap:balance}
+    .inkphase-review__button{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:40px;padding:9px 20px;border:1px solid #575757;border-radius:9999px;background:linear-gradient(180deg,#292929 0%,#333333 48%,#404040 100%);box-shadow:inset 0 1px 0 rgb(255 255 255 / 9%),inset 0 -1px 0 rgb(255 255 255 / 4%),0 2px 5px rgb(0 0 0 / 28%);color:#f3f3f3;font:inherit;font-size:13px;font-weight:450;line-height:1.2;letter-spacing:-.015em;text-decoration:none;cursor:pointer;transition:border-color 180ms ease,box-shadow 180ms ease,transform 180ms ease}
+    .inkphase-review__button:hover{border-color:#747474;box-shadow:inset 0 1px 0 rgb(255 255 255 / 14%),0 3px 10px rgb(0 0 0 / 35%);transform:translateY(-1px)}
+    .inkphase-review__button:active{transform:translateY(0)}
+    .inkphase-review__button:focus-visible{outline:2px solid #dedede;outline-offset:5px}
+    .inkphase-review__arrow{display:block;flex:0 0 auto;width:12px;height:12px}
+    .inkphase-review__proof{display:flex;flex-direction:column;align-items:center;gap:16px;padding:22px 32px 25px;border-top:1px solid #232323;box-shadow:inset 0 1px 0 rgb(255 255 255 / 1.5%);text-align:center}
+    .inkphase-review__people{display:flex;align-items:center;justify-content:center;gap:10px}
+    .inkphase-review__avatars{display:flex;align-items:center;padding-left:0}
+    .inkphase-review__avatar{position:relative;display:block;flex:0 0 44px;width:44px;height:44px;overflow:hidden;border:2px solid var(--avatar-ring);border-radius:50%;background:#191919;box-shadow:0 0 0 2px #0d0d0d}
+    .inkphase-review__avatar+.inkphase-review__avatar{margin-left:-10px}
+    .inkphase-review__avatar img{display:block;width:100%;height:100%;border-radius:inherit;object-fit:cover;filter:saturate(.72) brightness(.84)}
+    .inkphase-review__count{color:#666;font-size:12px;font-weight:450;line-height:1;font-variant-numeric:tabular-nums}
+    .inkphase-review__caption{margin:0;color:#eee;font-size:14px;font-weight:450;line-height:1.5;letter-spacing:-.02em;text-wrap:balance}
+    @media(max-width:380px){.inkphase-review__action{padding:28px 24px}.inkphase-review__proof{padding:22px 20px 25px}.inkphase-review__avatar{flex-basis:40px;width:40px;height:40px}}
+    @media(prefers-reduced-motion:reduce){.inkphase-review__button{transition:none}}
+  </style>
+  <div class="inkphase-review__card">
+    <div class="inkphase-review__action">
+      <h2 class="inkphase-review__heading" id="inkphase-review-heading">I’ve had the pleasure of working with great clients and companies.</h2>
+      <p class="inkphase-review__description">Bringing ideas to life through design, video, and digital experiences.</p>
+      <a class="inkphase-review__button" href="/contact-me/">
+        <span>Let’s work together</span>
+        <svg class="inkphase-review__arrow" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="m4.25 1.75 4.25 4.25-4.25 4.25" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </a>
+    </div>
+    <div class="inkphase-review__proof">
+      <div class="inkphase-review__people">
+        <!-- Decorative portraits; these do not identify actual clients. -->
+        <div class="inkphase-review__avatars" aria-hidden="true">
+          <span class="inkphase-review__avatar" style="--avatar-ring:#8d784c"><img src="https://i.pravatar.cc/88?img=47" alt="" width="44" height="44" loading="lazy" decoding="async"></span>
+          <span class="inkphase-review__avatar" style="--avatar-ring:#aaa2c5"><img src="https://i.pravatar.cc/88?img=12" alt="" width="44" height="44" loading="lazy" decoding="async"></span>
+          <span class="inkphase-review__avatar" style="--avatar-ring:#aa492a"><img src="https://i.pravatar.cc/88?img=11" alt="" width="44" height="44" loading="lazy" decoding="async"></span>
+          <span class="inkphase-review__avatar" style="--avatar-ring:#90afb5"><img src="https://i.pravatar.cc/88?img=13" alt="" width="44" height="44" loading="lazy" decoding="async"></span>
+          <span class="inkphase-review__avatar" style="--avatar-ring:#927749"><img src="https://i.pravatar.cc/88?img=44" alt="" width="44" height="44" loading="lazy" decoding="async"></span>
+        </div>
+        <span class="inkphase-review__count">174+</span>
+      </div>
+      <p class="inkphase-review__caption">Projects delivered across industries</p>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,16 @@
+<section class="inkphase-work" id="selected-work" aria-labelledby="inkphase-work-title">
+  <div class="inkphase-work-heading">
+    <span class="inkphase-work-eyebrow"><span aria-hidden="true">◆</span> PORTFOLIO</span>
+    <h2 id="inkphase-work-title">Selected Work</h2>
+    <p>A few websites I have worked on. Explore each project at its live link.</p>
+    <div class="inkphase-work-toggle" role="group" aria-label="Project display">
+      <button type="button" class="is-active" data-work-layout="cards" aria-pressed="true">Card view</button>
+      <button type="button" data-work-layout="list" aria-pressed="false">List view</button>
+    </div>
+  </div>
+  <div class="inkphase-work-viewport">
+    <div class="inkphase-work-list" data-work-list aria-label="Selected website projects, horizontally scrollable" tabindex="0">
+      {{WORK_CARDS}}
+    </div>
+  </div>
+</section>

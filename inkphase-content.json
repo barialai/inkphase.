@@ -1,0 +1,93 @@
+{
+  "brand": "Inkphase",
+  "name": "Barialai Nawabi",
+  "palette": {
+    "ink": "#000000",
+    "paper": "#f5f5f5",
+    "accent": "#0099ff"
+  },
+  "hero": {
+    "greeting": "👋 Hey, I'm Barialai",
+    "firstLine": "Multimedia",
+    "secondLine": "designer",
+    "description": "I create identities, video, motion and AI-assisted visuals that turn ideas into memorable digital experiences.",
+    "showcaseHeadline1": "Ideas made visible.",
+    "showcaseHeadline2": "Stories made to move.",
+    "showcaseDescription": "I turn ideas into distinctive brands, sharp visuals and content made for the way people watch, scroll and connect.",
+    "image": ""
+  },
+  "about": {
+    "firstParagraph": "I'm Barialai Nawabi. Through Inkphase, I create identities, video and motion for brands with something to say. I bring more than five years of experience and have delivered 174+ projects.",
+    "secondParagraph": "I've held senior roles in graphic design, creative design, video editing and AI creative production. I use practical AI tools to explore ideas, then shape the work through design judgment. My experience spans trading and crypto, real estate, education, hospitality and digital media. I hold a Master of Computer Applications from Goa University and collaborate with specialists when a project needs extra expertise.",
+    "portrait": ""
+  },
+  "projects": [
+    {
+      "slug": "bloom",
+      "label": "Project 01",
+      "category": "Reference visual",
+      "scope": "Add scope",
+      "year": "Add year",
+      "image": ""
+    },
+    {
+      "slug": "roast",
+      "label": "Project 02",
+      "category": "Reference visual",
+      "scope": "Add scope",
+      "year": "Add year",
+      "image": ""
+    },
+    {
+      "slug": "wildly",
+      "label": "Project 03",
+      "category": "Reference visual",
+      "scope": "Add scope",
+      "year": "Add year",
+      "image": ""
+    },
+    {
+      "slug": "lumen",
+      "label": "Project 04",
+      "category": "Reference visual",
+      "scope": "Add scope",
+      "year": "Add year",
+      "image": ""
+    },
+    {
+      "slug": "forge",
+      "label": "Project 05",
+      "category": "Reference visual",
+      "scope": "Add scope",
+      "year": "Add year",
+      "image": ""
+    }
+  ],
+  "contact": {
+    "email": "",
+    "instagram": "",
+    "linkedin": "",
+    "other": ""
+  },
+  "notes": "Add only your real project details and images. The project pages remain clearly marked placeholders until you replace them.",
+  "selectedWork": [
+    {
+      "name": "RentBeat",
+      "url": "https://rentbeat.vercel.app/",
+      "type": "Audio rental website",
+      "description": "A website for exploring audio and event equipment."
+    },
+    {
+      "name": "016media",
+      "url": "https://www.016media.com/",
+      "type": "Creative studio website",
+      "description": "A website presenting 016media and its creative services."
+    },
+    {
+      "name": "Website project 03",
+      "url": "https://test-nine-lovat-19.vercel.app/",
+      "type": "Live website",
+      "description": "Explore the live website to see the project."
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "featured": [
+    "six-million-rewards",
+    "drift-experience",
+    "every-trader-choice",
+    "fight-card-campaign",
+    "buy-two-get-three",
+    "choose-wisely",
+    "zero-steps-full-speed"
+  ],
+  "images": [
+    {
+      "id": "ad-1-post-01",
+      "title": "Campaign artwork 01",
+      "image": "/assets/work/ad-1-post-01.webp",
+      "alt": "Campaign artwork 01 — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "ad-1-post-02",
+      "title": "Campaign artwork 02",
+      "image": "/assets/work/ad-1-post-02.webp",
+      "alt": "Campaign artwork 02 — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "ad-1-post-03",
+      "title": "Campaign artwork 03",
+      "image": "/assets/work/ad-1-post-03.webp",
+      "alt": "Campaign artwork 03 — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "ad-1-post-04",
+      "title": "Campaign artwork 04",
+      "image": "/assets/work/ad-1-post-04.webp",
+      "alt": "Campaign artwork 04 — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "ad-1-post-05",
+      "title": "Campaign artwork 05",
+      "image": "/assets/work/ad-1-post-05.webp",
+      "alt": "Campaign artwork 05 — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "ad-1-post-06",
+      "title": "Campaign artwork 06",
+      "image": "/assets/work/ad-1-post-06.webp",
+      "alt": "Campaign artwork 06 — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "ad-1-post-07",
+      "title": "Campaign artwork 07",
+      "image": "/assets/work/ad-1-post-07.webp",
+      "alt": "Campaign artwork 07 — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "six-million-rewards",
+      "title": "+6M in rewards",
+      "image": "/assets/work/six-million-rewards.webp",
+      "alt": "+6M in rewards — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "two-by-five-k-giveaway",
+      "title": "2x 5K giveaway",
+      "image": "/assets/work/two-by-five-k-giveaway.webp",
+      "alt": "2x 5K giveaway — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "three-years-in-industry",
+      "title": "3 years in the industry",
+      "image": "/assets/work/three-years-in-industry.webp",
+      "alt": "3 years in the industry — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "fifty-off-thirty-three-off",
+      "title": "50% off + 33% off",
+      "image": "/assets/work/fifty-off-thirty-three-off.webp",
+      "alt": "50% off + 33% off — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "four-hundred-k-allocation",
+      "title": "400K max allocation",
+      "image": "/assets/work/four-hundred-k-allocation.webp",
+      "alt": "400K max allocation — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "ad-1-post-08",
+      "title": "Campaign artwork 08",
+      "image": "/assets/work/ad-1-post-08.webp",
+      "alt": "Campaign artwork 08 — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "ad-1-post-09",
+      "title": "Campaign artwork 09",
+      "image": "/assets/work/ad-1-post-09.webp",
+      "alt": "Campaign artwork 09 — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "affiliate-program",
+      "title": "Affiliate program",
+      "image": "/assets/work/affiliate-program.webp",
+      "alt": "Affiliate program — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "buy-two-get-three",
+      "title": "Buy 2, get 3 promo",
+      "image": "/assets/work/buy-two-get-three.webp",
+      "alt": "Buy 2, get 3 promo — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "choose-wisely",
+      "title": "Choose wisely",
+      "image": "/assets/work/choose-wisely.webp",
+      "alt": "Choose wisely — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "drift-experience",
+      "title": "Drift experience",
+      "image": "/assets/work/drift-experience.webp",
+      "alt": "Drift experience — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "every-trader-choice",
+      "title": "Every trader faces this choice",
+      "image": "/assets/work/every-trader-choice.webp",
+      "alt": "Every trader faces this choice — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "fight-card-campaign",
+      "title": "Fight card campaign",
+      "image": "/assets/work/fight-card-campaign.webp",
+      "alt": "Fight card campaign — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "fight-campaign",
+      "title": "Fight campaign",
+      "image": "/assets/work/fight-campaign.webp",
+      "alt": "Fight campaign — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "campaign-frame",
+      "title": "Campaign frame",
+      "image": "/assets/work/campaign-frame.webp",
+      "alt": "Campaign frame — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "instant-funding",
+      "title": "Instant funding",
+      "image": "/assets/work/instant-funding.webp",
+      "alt": "Instant funding — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "programs-intro-01",
+      "title": "Introducing our programs 01",
+      "image": "/assets/work/programs-intro-01.webp",
+      "alt": "Introducing our programs 01 — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "programs-intro-02",
+      "title": "Introducing our programs 02",
+      "image": "/assets/work/programs-intro-02.webp",
+      "alt": "Introducing our programs 02 — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "official-partner",
+      "title": "Official partner",
+      "image": "/assets/work/official-partner.webp",
+      "alt": "Official partner — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "partner-with-orion",
+      "title": "Partner with Orion",
+      "image": "/assets/work/partner-with-orion.webp",
+      "alt": "Partner with Orion — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "pay-after-you-pass",
+      "title": "Pay after you pass",
+      "image": "/assets/work/pay-after-you-pass.webp",
+      "alt": "Pay after you pass — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "campaign-post-01",
+      "title": "Campaign post 01",
+      "image": "/assets/work/campaign-post-01.webp",
+      "alt": "Campaign post 01 — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "campaign-post-03",
+      "title": "Campaign post 03",
+      "image": "/assets/work/campaign-post-03.webp",
+      "alt": "Campaign post 03 — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "prop-firm-match",
+      "title": "Prop firm match integration",
+      "image": "/assets/work/prop-firm-match.webp",
+      "alt": "Prop firm match integration — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "nine-k-followers-x",
+      "title": "9K followers on X",
+      "image": "/assets/work/nine-k-followers-x.webp",
+      "alt": "9K followers on X — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "looking-for",
+      "title": "We’re looking for",
+      "image": "/assets/work/looking-for.webp",
+      "alt": "We’re looking for — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "partner-withdrawal-schedule",
+      "title": "Withdrawal schedule for partners",
+      "image": "/assets/work/partner-withdrawal-schedule.webp",
+      "alt": "Withdrawal schedule for partners — campaign design by Barialai Nawabi"
+    },
+    {
+      "id": "zero-steps-full-speed",
+      "title": "Zero steps. Full speed.",
+      "image": "/assets/work/zero-steps-full-speed.webp",
+      "alt": "Zero steps. Full speed. — campaign design by Barialai Nawabi"
+    }
+  ]
+}

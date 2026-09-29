@@ -1,0 +1,23 @@
+/* A shared, readable type scale across the public sections and page controls. */
+body.inkphase-site-gradient{font-family:Geist,Inter,Arial,sans-serif}
+.inkphase-showcase,.inkphase-work,.inkphase-latest,.inkphase-services{font-family:Geist,Inter,Arial,sans-serif}
+.inkphase-showcase-links a,.inkphase-showcase-nav-cta{font-size:13px}
+.inkphase-showcase-kicker{font-size:11px}
+.inkphase-showcase-desc{font-size:15px;line-height:1.6}
+.inkphase-work h2,.inkphase-latest h2,.inkphase-services h2{font-size:clamp(40px,5vw,68px);line-height:1.09;letter-spacing:-.05em}
+.inkphase-work-heading>p,.inkphase-latest-heading p{font-size:16px;line-height:1.6}
+.inkphase-work-eyebrow,.inkphase-latest-eyebrow,.inkphase-services-eyebrow{font-size:11px;line-height:1.35}
+.inkphase-work-toggle button,.inkphase-latest-view-toggle button{font-size:13px}
+.inkphase-work-card>p,.inkphase-services-card p{font-size:15px;line-height:1.55}
+.inkphase-work-card ul,.inkphase-services-details li{font-size:14px;line-height:1.4}
+.inkphase-work-card-badge,.inkphase-work-card-divider,.inkphase-services-details>span{font-size:11px}
+body.inkphase-site-gradient input,body.inkphase-site-gradient textarea,body.inkphase-site-gradient select{font-family:Geist,Inter,Arial,sans-serif}
+@media(max-width:760px){
+  .inkphase-showcase-links a,.inkphase-showcase-nav-cta{font-size:12px}
+  .inkphase-showcase-desc{font-size:14px}
+  .inkphase-work h2,.inkphase-latest h2,.inkphase-services h2{font-size:clamp(36px,8.5vw,54px)}
+  .inkphase-work-heading>p,.inkphase-latest-heading p{font-size:14px}
+  .inkphase-work-card>p,.inkphase-services-card p{font-size:14px}
+  .inkphase-work-card ul,.inkphase-services-details li{font-size:13px}
+  body.inkphase-site-gradient input,body.inkphase-site-gradient textarea,body.inkphase-site-gradient select{font-size:16px}
+}

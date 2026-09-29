@@ -1,0 +1,37 @@
+body.inkphase-showcase-home #main section.framer-1h97iyt,body.inkphase-showcase-home #main section.framer-1dln4dg{display:none!important}
+.inkphase-services,.inkphase-services *{box-sizing:border-box}
+.inkphase-services{position:relative;background:transparent;color:#fff;padding:86px clamp(20px,4vw,52px) 110px;font-family:Geist,Inter,Arial,sans-serif}
+.inkphase-services-head{text-align:center;margin:0 auto 54px;max-width:980px}
+.inkphase-services-eyebrow{display:inline-flex;align-items:center;padding:7px 12px;border:1px solid #444448;border-radius:30px;background:linear-gradient(160deg,#303033,#1a1a1c);box-shadow:inset 0 1px 0 #ffffff1a,0 3px 8px #0007;color:#ededed;font-size:10px;font-weight:600;letter-spacing:.07em}
+.inkphase-services h2{margin:19px 0 0;font-weight:520;font-size:clamp(42px,5.3vw,76px);line-height:1.07;letter-spacing:-.055em;text-wrap:balance}
+.inkphase-services h2 strong,.inkphase-services h2 em{font:inherit;letter-spacing:inherit}
+.inkphase-services-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;max-width:1190px;margin:auto}
+.inkphase-services-card{min-width:0;min-height:560px;border:1px solid #515151;border-radius:20px;padding:34px 37px 32px;background:#000;display:flex;flex-direction:column}
+.inkphase-services-visual{height:235px;display:grid;place-items:center;margin:-4px -10px 16px}
+.inkphase-services-visual img{display:block;width:auto;height:100%;max-width:100%;object-fit:contain}
+.inkphase-services-card h3{font-size:clamp(28px,2.5vw,38px);line-height:1.1;letter-spacing:-.045em;font-weight:550;margin:0 0 13px}
+.inkphase-services-card p{font-size:15px;line-height:1.55;letter-spacing:0;color:#a9a9af;min-height:72px;margin:0 0 19px}
+.inkphase-services-details{margin-top:auto;border-top:1px solid #666;padding-top:11px;color:#aaa}
+.inkphase-services-details>span{display:block;font-size:10px;font-weight:600;letter-spacing:.1em;margin-bottom:12px;color:#a5a5a5}
+.inkphase-services-details ul{display:grid;grid-template-columns:1fr 1fr;column-gap:9px;row-gap:5px;margin:0;padding:0;list-style:none}
+.inkphase-services-details li{font-size:12px;line-height:1.15;white-space:nowrap}.inkphase-services-details li:before{content:'●';font-size:7px;vertical-align:2px;margin-right:4px}
+.inkphase-services-switch{display:inline-flex;align-items:center;gap:3px;padding:4px;margin-top:31px;border:1px solid #45454a;border-radius:28px;background:linear-gradient(#222224,#131315);box-shadow:inset 0 1px 1px #ffffff1a,0 5px 14px #0008}
+.inkphase-services-switch button{min-width:111px;height:36px;border:0;border-radius:24px;background:transparent;color:#c7c7cc;font:inherit;font-size:13px;cursor:pointer;transition:background .25s,color .25s,box-shadow .25s}
+.inkphase-services-switch button.is-active{background:linear-gradient(#404044,#28282b);box-shadow:inset 0 1px 0 #ffffff2c,0 2px 6px #000a;color:#fff}
+.inkphase-services-switch button:focus-visible,.inkphase-pricing-cta:focus-visible{outline:2px solid #9ac8ff;outline-offset:3px}
+.inkphase-services-stage{display:grid;max-width:1190px;margin:auto}.inkphase-services-panel{grid-area:1/1;max-width:none;width:100%;transition:opacity .42s ease,transform .55s cubic-bezier(.22,1,.36,1),visibility .42s}
+.inkphase-services-panel:not(.is-active){visibility:hidden;opacity:0;transform:translateY(14px) scale(.985);pointer-events:none}.inkphase-services-panel.is-active{visibility:visible;opacity:1;transform:none}
+.inkphase-pricing-card{min-height:560px;background:linear-gradient(160deg,#242426,#0a0a0b 45%,#080809);border-color:#353539;box-shadow:inset 0 1px 0 #ffffff10;padding-top:30px}
+.inkphase-pricing-card-featured{background:radial-gradient(ellipse 110% 100% at 50% 112%,#3154c3,#132568 55%,#10112b);border-color:#5268c7;box-shadow:0 16px 55px #101b6866,inset 0 1px 0 #8ea8ff4d}
+.inkphase-pricing-label{font-size:11px;font-weight:600;letter-spacing:.1em;color:#b3b3b8;margin-bottom:16px}.inkphase-pricing-card-featured .inkphase-pricing-label{color:#d3dfff}
+.inkphase-pricing-card h3{font-size:clamp(25px,2.2vw,34px);margin-bottom:17px}
+.inkphase-pricing-value{font-size:clamp(29px,2.7vw,41px);font-weight:550;letter-spacing:-.045em;line-height:1.1;margin-bottom:15px}
+.inkphase-pricing-card p{min-height:75px;font-size:14px;line-height:1.55;margin-bottom:19px}
+.inkphase-pricing-cta{display:grid;place-items:center;min-height:46px;border:1px solid #ffffff30;border-radius:9px;background:linear-gradient(#29292c,#171719);box-shadow:inset 0 1px 0 #ffffff21;color:#fff;text-decoration:none;font-size:14px;font-weight:550;transition:background .2s,transform .2s}
+.inkphase-pricing-cta:hover{background:#333339;transform:translateY(-2px)}.inkphase-pricing-card-featured .inkphase-pricing-cta{background:#f7f8ff;color:#101322;border-color:#fff}
+.inkphase-pricing-details{margin-top:auto;border-top:1px solid #ffffff35;padding-top:19px}.inkphase-pricing-details span{display:block;font-size:11px;font-weight:600;letter-spacing:.06em;margin-bottom:17px}
+.inkphase-pricing-details ul{list-style:none;margin:0;padding:0;display:grid;gap:14px}.inkphase-pricing-details li{font-size:14px;color:#b6b6bd;line-height:1.3}.inkphase-pricing-details li:before{content:'✓';margin-right:11px;color:#c9d6ff}.inkphase-pricing-card-featured li{color:#ecedff}
+@media(max-width:1000px){.inkphase-services-card{padding:27px 24px;min-height:530px}.inkphase-services-visual{height:215px}.inkphase-services-details li{font-size:11px}}
+@media(max-width:760px){.inkphase-services{padding:72px 18px 85px}.inkphase-services-head{margin-bottom:40px}.inkphase-services h2{font-size:clamp(38px,9vw,58px)}.inkphase-services-grid{grid-template-columns:1fr;max-width:440px;gap:18px}.inkphase-services-card{min-height:0;padding:28px 30px 30px}.inkphase-services-visual{height:220px}.inkphase-services-card p{min-height:0;max-width:340px;margin-bottom:25px}.inkphase-services-details li{font-size:12px}}
+@media(max-width:760px){.inkphase-services-stage{max-width:440px}.inkphase-pricing-card{min-height:500px}.inkphase-pricing-card p{min-height:0}.inkphase-services-switch{margin-top:24px}}
+@media(prefers-reduced-motion:reduce){.inkphase-services-panel,.inkphase-services-switch button,.inkphase-pricing-cta{transition:none!important}}

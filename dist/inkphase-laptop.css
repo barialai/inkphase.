@@ -1,0 +1,30 @@
+/* Original supplied opening video, integrated with the existing Inkphase hero. */
+body.inkphase-showcase-home .inkphase-showcase{background:#07060A}
+body.inkphase-showcase-home .inkphase-showcase:before,
+body.inkphase-showcase-home .inkphase-showcase:after,
+body.inkphase-showcase-home .inkphase-showcase-inner:before{display:none}
+body.inkphase-showcase-home .inkphase-showcase-inner{max-width:720px;padding-top:95px;padding-bottom:58px}
+body.inkphase-showcase-home .inkphase-showcase-grid{margin-top:230px}
+
+.inkphase-laptop-sequence{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none;background:#07060A}
+.inkphase-hero-video,.inkphase-video-still{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;object-position:center 50%;pointer-events:none}
+.inkphase-video-still{display:none}
+.inkphase-laptop-sequence:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,#07060A 0%,#07060Ab8 18%,transparent 40%,transparent 73%,#07060A 100%)}
+
+/* The glass information cards stay readable against the moving image. */
+body.inkphase-showcase-home .inkphase-showcase-form{background:#1A1724dc;box-shadow:0 0 0 1px #FCA3B075,0 12px 32px #07060A88}
+body.inkphase-showcase-home .inkphase-showcase-grid:before{opacity:.14}
+body.inkphase-showcase-home .inkphase-glass-card{background:linear-gradient(145deg,#1A1724f2,#2E0A52dc);border-color:#FCA3B04b;box-shadow:inset 0 1px 0 #ffffff13,0 12px 30px #07060A99}
+body.inkphase-showcase-home .inkphase-card-years,body.inkphase-showcase-home .inkphase-card-projects{background:linear-gradient(145deg,#1A1724f2,#2E0A52dc)}
+body.inkphase-showcase-home .inkphase-card-footer{background:linear-gradient(90deg,#2E0A52e8,#1A1724d9)}
+
+@media(max-width:800px){body.inkphase-showcase-home .inkphase-showcase-grid{margin-top:210px}}
+@media(max-width:580px){
+  body.inkphase-showcase-home .inkphase-showcase-inner{padding-top:105px;padding-bottom:45px}
+  body.inkphase-showcase-home .inkphase-showcase-grid{margin-top:270px}
+  .inkphase-laptop-sequence{inset:350px 0 auto;height:300px;background:transparent}
+  .inkphase-hero-video,.inkphase-video-still{object-position:center center}
+  .inkphase-laptop-sequence:after{background:linear-gradient(180deg,#07060A 0%,transparent 22%,transparent 72%,#07060A 100%)}
+}
+@media(max-width:380px){body.inkphase-showcase-home .inkphase-showcase-grid{margin-top:245px}.inkphase-laptop-sequence{top:340px;height:280px}}
+@media(prefers-reduced-motion:reduce){.inkphase-hero-video{display:none}.inkphase-video-still{display:block}}

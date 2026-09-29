@@ -1,0 +1,153 @@
+/* Inkphase palette — edit these six values to retheme the entire interface. */
+:root{
+  --ink-void:#07060A;
+  --ink-surface:#1A1724;
+  --ink-violet:#5E129B;
+  --ink-plum:#2E0A52;
+  --ink-blue:#5885F7;
+  --ink-rose:#FCA3B0;
+  --ink-text:#F8F5FC;
+  --ink-muted:#B8B3C6;
+  --ink-line:#FCA3B02b;
+}
+body.inkphase-site-gradient,body.inkphase-contact-page,body.inkphase-work-page{background:var(--ink-void);color:var(--ink-text)}
+body.inkphase-site-gradient #main{
+  --token-0e44b702-23c6-417a-85ef-a5529e13ec13:var(--ink-blue);
+  --token-a81c421c-cc7c-441f-a1c0-2312fa03292e:var(--ink-muted);
+  --token-bbf31ffb-d481-4c1e-b5ad-c3f9afe800ac:var(--ink-text);
+}
+::selection{background:var(--ink-violet);color:white}
+:where(a,button,input,textarea):focus-visible{outline:2px solid var(--ink-rose);outline-offset:3px}
+
+/* One continuous dark field through Home, About and the legacy Framer footer. */
+body.inkphase-showcase-home .inkphase-projects-surface{
+  background:radial-gradient(ellipse 50% 13% at 86% 15%,#5E129B29,transparent 100%),radial-gradient(ellipse 38% 16% at 8% 59%,#5885F71b,transparent 100%),radial-gradient(ellipse 56% 16% at 50% 94%,#2E0A5254,transparent 100%),linear-gradient(180deg,#07060A,#100b19 45%,#07060A)!important
+}
+body.inkphase-showcase-home .inkphase-projects-surface:before{background-image:radial-gradient(#FCA3B01c .55px,transparent 1px),radial-gradient(#07060A99 .7px,transparent 1px)}
+body.inkphase-site-gradient:not(.inkphase-showcase-home) #main .framer-c8mQs{
+  background:radial-gradient(ellipse 55% 30% at 85% 20%,#5E129B36,transparent 100%),radial-gradient(ellipse 60% 28% at 12% 75%,#5885F71d,transparent 100%),linear-gradient(180deg,#07060A,#1A1724 58%,#07060A)!important
+}
+body.inkphase-site-gradient #main .framer-hoNGa > section:not(.framer-m0yhsr),
+body.inkphase-site-gradient #main .framer-B6VHs > header,
+body.inkphase-site-gradient #main .framer-Fzhkl > header,
+body.inkphase-site-gradient #main .framer-6C9wn > header{--token-2ff00286-9ec5-40fa-81e7-0c80f0a1eea1:#F8F5FC;--token-ce960de2-2000-4714-9ea1-a190c65c7ed4:#D4CDE2}
+body.inkphase-site-gradient #main .framer-hoNGa > section [style*="background-color:var(--token-bbf31ffb"],
+body.inkphase-site-gradient #main .framer-hoNGa > section [style*="background-color:var(--token-ce960de2"],
+body.inkphase-site-gradient #main header [style*="background-color:var(--token-bbf31ffb"],
+body.inkphase-site-gradient #main header [style*="background-color:var(--token-ce960de2"]{--token-2ff00286-9ec5-40fa-81e7-0c80f0a1eea1:#1A1724;--token-ce960de2-2000-4714-9ea1-a190c65c7ed4:#F8F5FC}
+body.inkphase-site-gradient #main .framer-hoNGa > section:not(.framer-m0yhsr) h2,
+body.inkphase-site-gradient #main .framer-B6VHs > header h1,
+body.inkphase-site-gradient #main .framer-Fzhkl > header h1,
+body.inkphase-site-gradient #main .framer-6C9wn > header h1{color:var(--ink-text)!important}
+body.inkphase-site-gradient #main .framer-hoNGa > section:not(.framer-m0yhsr) > div > p{color:var(--ink-muted)}
+
+/* Preserve the supplied laptop images; match their surrounding stage to the palette. */
+body.inkphase-showcase-home .inkphase-showcase,body.inkphase-showcase-home .inkphase-laptop-sequence{background:var(--ink-void)}
+body.inkphase-showcase-home .inkphase-laptop-sequence:after{background:linear-gradient(180deg,#07060A 0%,#07060Ad4 18%,transparent 41%,transparent 70%,#07060A 100%)}
+.inkphase-about-navigation.inkphase-showcase,.inkphase-gallery-nav.inkphase-showcase,.inkphase-contact-nav.inkphase-showcase{background:var(--ink-void)}
+.inkphase-brand-period,.inkphase-explore-card .explore-icon{color:var(--ink-rose)}
+.inkphase-brand-symbol i{background:linear-gradient(110deg,var(--ink-violet),var(--ink-rose))}
+.inkphase-showcase-links a{color:#D1CADE}
+.inkphase-showcase-links a:hover,.inkphase-showcase-links a:focus-visible{color:var(--ink-rose)}
+.inkphase-showcase-desc,.inkphase-showcase-caption{color:var(--ink-muted)}
+body.inkphase-showcase-home .inkphase-showcase-form{background:#1A1724e8;box-shadow:0 0 0 1px #5885F777,0 0 28px #5E129B30,0 12px 32px #07060Aaa}
+.inkphase-showcase-form input::placeholder{color:var(--ink-muted)}
+.inkphase-showcase-nav-cta,.inkphase-showcase-form button{background:linear-gradient(150deg,#fff6fb,var(--ink-rose));border-color:#ffd1db;color:var(--ink-void)!important}
+.inkphase-showcase-nav-cta:hover,.inkphase-showcase-form button:hover{box-shadow:0 5px 22px #FCA3B064}
+body.inkphase-showcase-home .inkphase-glass-card{background:linear-gradient(145deg,#1A1724f5,#2E0A52bb);border-color:#FCA3B04b;box-shadow:inset 0 1px #FCA3B018,0 12px 30px #07060Aaa}
+body.inkphase-showcase-home .inkphase-card-years{background:linear-gradient(155deg,#1A1724f5,#2E0A52cc)}
+body.inkphase-showcase-home .inkphase-card-projects{background:linear-gradient(155deg,#1A1724f5,#2E0A52aa)}
+body.inkphase-showcase-home .inkphase-card-footer{background:linear-gradient(90deg,#2E0A52e8,#1A1724e8)}
+.inkphase-glass-card small,.inkphase-card-meta small,.inkphase-card-meta>span:last-child{color:#D4CDE2}
+.inkphase-card-stat{text-shadow:0 0 24px #FCA3B044}
+.inkphase-card-pill{background:#5E129B44;border-color:#FCA3B064;color:#FFE0E6}
+.inkphase-footer-symbol{background:#5E129B99}
+@media(max-width:580px){body.inkphase-showcase-home .inkphase-laptop-sequence:after{background:linear-gradient(180deg,#07060A 0%,transparent 22%,transparent 69%,#07060A 100%)}}
+
+/* Shared labels, tabs and calls to action. */
+:is(.inkphase-work-eyebrow,.inkphase-latest-eyebrow,.inkphase-services-eyebrow,.inkphase-gallery-kicker,.inkphase-giveaways-eyebrow){background:linear-gradient(145deg,#2E0A5266,#1A1724);border-color:var(--ink-line);color:#F5E9F6}
+:is(.inkphase-work-eyebrow,.inkphase-latest-eyebrow) span{color:var(--ink-rose)}
+:is(.inkphase-work-heading>p,.inkphase-latest-heading p,.inkphase-services-card p,.inkphase-gallery p,.inkphase-giveaways-heading p,.inkphase-workpage-heading p,.inkphase-explore-heading p){color:var(--ink-muted)}
+:is(.inkphase-work-toggle,.inkphase-latest-view-toggle,.inkphase-services-switch){background:linear-gradient(#2E0A524d,#1A1724);border-color:var(--ink-line)}
+:is(.inkphase-work-toggle,.inkphase-latest-view-toggle,.inkphase-services-switch) button{color:#D4CDE2}
+:is(.inkphase-work-toggle,.inkphase-latest-view-toggle,.inkphase-services-switch) button.is-active{background:linear-gradient(145deg,#5E129B,#2E0A52);color:#fff;box-shadow:inset 0 1px #FCA3B03d,0 2px 8px #07060Aaa}
+:is(.inkphase-work-toggle,.inkphase-latest-view-toggle,.inkphase-services-switch) button:focus-visible{outline-color:var(--ink-rose)}
+
+/* Work, featured project, services and pricing. */
+.inkphase-work-card{--work-accent:var(--ink-blue);border-color:var(--ink-line);background:radial-gradient(ellipse 48% 30% at 22% 0%,#5E129B45,transparent 100%),linear-gradient(180deg,#21192e,#120e1c 44%,#0b0910)}
+.inkphase-work-card.tone-2{--work-accent:var(--ink-rose)}.inkphase-work-card.tone-3{--work-accent:var(--ink-violet)}
+.inkphase-work-card-badge{background:#2E0A52e0;border-color:#FCA3B042;color:#F6EAF5}
+.inkphase-work-card-icon{background:linear-gradient(145deg,var(--ink-rose),var(--work-accent) 65%,var(--ink-plum));border-color:#FCA3B085;color:var(--ink-void)}
+.inkphase-work-card-number small,.inkphase-work-card>p,.inkphase-work-card ul{color:var(--ink-muted)}
+.inkphase-work-card-link{background:linear-gradient(#352342,#241a31);border-color:#FCA3B040}
+.inkphase-work-card-link:hover{background:linear-gradient(#452856,#30203e);border-color:var(--ink-rose)}
+.inkphase-work-card.tone-2 .inkphase-work-card-link{background:linear-gradient(#fff6fb,var(--ink-rose));color:var(--ink-void);border-color:#ffd1db}
+.inkphase-work-card:after{background-image:radial-gradient(#FCA3B027 .5px,transparent 1px)}
+.inkphase-latest-stage:before{background:radial-gradient(ellipse at top left,#5885F7b0 0%,#5E129B88 19%,#2E0A5255 40%,transparent 70%)}
+.inkphase-latest-stage:after{background:radial-gradient(ellipse at bottom right,#FCA3B099 0%,#5E129B77 24%,#2E0A5240 43%,transparent 70%)}
+.inkphase-latest-browser{border-color:#756783;background:var(--ink-surface);box-shadow:0 0 0 1px #FCA3B029,0 18px 50px #07060Aaa}
+.inkphase-latest-browser:before{border-top-color:var(--ink-blue);border-left-color:var(--ink-violet)}
+.inkphase-latest-browser:after{border-bottom-color:var(--ink-rose);border-right-color:var(--ink-violet)}
+.inkphase-latest-screen,.inkphase-latest-screen iframe{background:var(--ink-void)}
+.inkphase-latest-screen:after{background:linear-gradient(to bottom,transparent 42%,#07060A70 72%,#07060Ae8 100%)}
+.inkphase-services-card{background:linear-gradient(155deg,#211a2c,#100c18 75%);border-color:var(--ink-line)}
+.inkphase-services-details{border-top-color:#FCA3B035;color:var(--ink-muted)}
+.inkphase-services-details>span{color:#D4CDE2}
+.inkphase-pricing-card{background:linear-gradient(160deg,#211a2c,#100c18 70%);border-color:var(--ink-line)}
+.inkphase-pricing-card-featured{background:radial-gradient(ellipse 110% 100% at 50% 112%,#5E129B,#2E0A52 58%,#1A1724);border-color:#FCA3B080;box-shadow:0 16px 55px #5E129B3d,inset 0 1px #FCA3B04d}
+.inkphase-pricing-card-featured .inkphase-pricing-label,.inkphase-pricing-details li:before{color:var(--ink-rose)}
+.inkphase-pricing-cta{background:linear-gradient(#352342,#241a31);border-color:#FCA3B040}
+.inkphase-pricing-cta:hover{background:#452856}
+.inkphase-pricing-card-featured .inkphase-pricing-cta{background:var(--ink-rose);border-color:#ffd1db;color:var(--ink-void)}
+.inkphase-pricing-details li{color:var(--ink-muted)}
+
+/* Work gallery and optional resource/explore sections. */
+.inkphase-gallery:before{background:radial-gradient(ellipse 53% 48% at 50% 44%,#5E129B32,transparent 76%)}
+.inkphase-gallery-image{background:var(--ink-surface);border-color:var(--ink-line)}
+.inkphase-gallery-button,.inkphase-giveaway-details a{background:linear-gradient(#fff6fb,var(--ink-rose));border-color:#ffd1db;color:var(--ink-void)}
+.inkphase-gallery-button:hover,.inkphase-giveaway-details a:hover{background:#ffe4e9}
+.inkphase-work-page,.inkphase-workpage-main{background:var(--ink-void)}
+.inkphase-workpage-main{background:radial-gradient(ellipse 70% 36% at 50% 0%,#2E0A5266,transparent 80%),radial-gradient(ellipse 50% 25% at 85% 65%,#5885F71b,transparent),var(--ink-void)}
+.inkphase-workpage-main:before{background-image:radial-gradient(#FCA3B02b .5px,transparent 1px)}
+.inkphase-workpage-item{background:var(--ink-surface);border-color:var(--ink-line)}
+.inkphase-workpage-item:hover{border-color:#FCA3B080;box-shadow:0 20px 40px #07060Aaa,0 0 30px #5E129B4d}
+.inkphase-workpage-item:after{background:radial-gradient(ellipse 65% 55% at 50% 40%,#FCA3B029,transparent 85%)}
+.inkphase-workpage-item figcaption{background:#1A1724e8;border-color:var(--ink-line)}
+.inkphase-workpage-bottom a{color:var(--ink-rose)}
+.inkphase-giveaway-card{background:linear-gradient(145deg,#211a2c,#100c18 70%);border-color:var(--ink-line)}
+.inkphase-giveaway-card:hover{border-color:#FCA3B085;box-shadow:0 20px 45px #07060Aaa,0 0 29px #5E129B44}
+.inkphase-giveaway-preview,.inkphase-giveaway-preview iframe{background:var(--ink-void)}
+.inkphase-explore-card{--accent:var(--ink-rose);--light:#5E129Baa;--halo:#5E129B4d;background:var(--ink-surface);border-color:var(--ink-line)}
+.inkphase-explore-card.explore-green{--accent:var(--ink-blue);--light:#5885F799;--halo:#5885F744}
+.inkphase-explore-card.explore-violet{--accent:var(--ink-violet);--light:#5E129Baa;--halo:#5E129B4d}
+.inkphase-explore-card.explore-amber{--accent:var(--ink-rose);--light:#FCA3B077;--halo:#FCA3B044}
+.inkphase-explore-card:after{background:linear-gradient(90deg,#1A1724 0%,#1A1724dc 34%,transparent 82%)}
+
+/* The multi-step contact form, including its selected and focused states. */
+body.inkphase-site-gradient .contact-main,body.inkphase-contact-page .contact-main{background:radial-gradient(ellipse 65% 43% at 50% 27%,#2E0A5266,transparent 83%),linear-gradient(180deg,#0b0810,var(--ink-void))!important}
+body.inkphase-showcase-home .inkphase-home-contact.contact-main{background:transparent!important}
+body.inkphase-site-gradient .contact-main:before,body.inkphase-contact-page .contact-main:before{background-image:radial-gradient(#FCA3B021 .55px,transparent 1px),radial-gradient(#07060A99 .7px,transparent 1px)}
+.contact-intro span{color:var(--ink-rose)}.contact-intro p{color:var(--ink-muted)}
+.contact-wizard{background:radial-gradient(ellipse 80% 45% at 3% 52%,#5E129B28,transparent 70%),linear-gradient(135deg,#241b31,#1A1724 39%,#0e0b15);border-color:#FCA3B044}
+.contact-wizard:after{background:linear-gradient(transparent,#FCA3B088,transparent)}
+.wizard-progress i{background:#665975}.wizard-progress i.active{background:var(--ink-rose);box-shadow:0 0 10px #FCA3B070}.wizard-progress i.done{background:var(--ink-blue)}
+.wizard-mark-service,.wizard-mark-detail,.wizard-mark-time,.wizard-mark-budget,.wizard-mark-contact{background:radial-gradient(circle at 50% 25%,#5E129B77,#21172e 75%);border-color:#FCA3B055;color:var(--ink-rose);box-shadow:0 9px 30px #5E129B33}
+.paper-tray{background:linear-gradient(153deg,#2E0A52,#4b3373 55%,#1A1724);border-color:#FCA3B06a}
+.paper-front{color:var(--ink-plum)}
+.wizard-subtitle,.wizard-choice small,.wizard-label span,.delivery-note,.contact-after{color:var(--ink-muted)}
+.wizard-choice:hover,.wizard-choice.is-selected{background:#5E129B33;border-color:#FCA3B066}
+.choice-icon{background:#2E0A5277;color:var(--ink-rose)}
+.choice-end{background:#2c2138;border-color:#FCA3B035}.wizard-choice.is-selected .choice-end{color:var(--ink-rose);border-color:var(--ink-rose)}
+.wizard-chips button,.wizard-actions button,.wizard-actions .wizard-download,.wizard-actions .wizard-email{background:#211a2b;border-color:#FCA3B03d;color:#ECE4F1}
+.wizard-chips button[aria-pressed="true"],.wizard-chips button:hover{background:#5E129B55;border-color:var(--ink-rose);color:#fff}
+.wizard-step textarea,.wizard-step input{background:#110d19;border-color:#FCA3B03b}
+.wizard-step textarea:focus,.wizard-step input:focus{border-color:var(--ink-blue);box-shadow:0 0 0 3px #5885F733}
+.wizard-step input::placeholder,.wizard-step textarea::placeholder{color:#a9a0b6}
+.brief-summary{background:#17101f;border-color:#FCA3B03a;color:#D4CDE2}
+.wizard-actions button:hover,.wizard-actions .wizard-download:hover,.wizard-actions .wizard-email:hover{border-color:var(--ink-rose)}
+.wizard-actions .wizard-next,.wizard-actions .wizard-finish{background:var(--ink-rose);border-color:var(--ink-rose);color:var(--ink-void)}
+.wizard-actions .wizard-next:hover,.wizard-actions .wizard-finish:hover{background:#ffd0d8;color:var(--ink-void)}
+.wizard-result{color:var(--ink-rose)}
+.contact-after a,.contact-footer a{color:#F8E1E8}
+.contact-footer{background:var(--ink-void);border-top-color:var(--ink-line);color:var(--ink-muted)}
+.contact-wizard button:focus-visible,.contact-after a:focus-visible,.contact-footer a:focus-visible{outline-color:var(--ink-rose)}

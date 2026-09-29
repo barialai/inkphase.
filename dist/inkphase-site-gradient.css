@@ -1,0 +1,43 @@
+/* Carry the homepage blue glow through the site without changing its footer. */
+body.inkphase-site-gradient{background:#02050e}
+/* The homepage has its own contact close; collapse the legacy blank Framer footer band. */
+body.inkphase-showcase-home #main .framer-c8mQs{min-height:0!important;background:transparent!important}
+body.inkphase-showcase-home #main .framer-ltxt4o-container{display:none!important}
+body.inkphase-site-gradient #main .framer-c8mQs{background:radial-gradient(ellipse 80% 16% at 50% 7%,#225296 0%,transparent 80%),radial-gradient(ellipse 75% 20% at 50% 63%,#173566 0%,transparent 80%),linear-gradient(180deg,#133264 0%,#091a39 24%,#070d1e 52%,#0b1b38 81%,#132e56 100%)!important}
+body.inkphase-site-gradient:not(.inkphase-showcase-home) #main .framer-c8mQs{background:radial-gradient(ellipse 80% 20% at 50% 34%,#1c427e 0%,transparent 80%),radial-gradient(ellipse 70% 18% at 50% 81%,#12305b 0%,transparent 80%),linear-gradient(180deg,#020408 0%,#08152e 29%,#071123 66%,#122b52 100%)!important}
+body.inkphase-site-gradient #main .framer-hoNGa,
+body.inkphase-site-gradient #main .framer-B6VHs,
+body.inkphase-site-gradient #main .framer-Fzhkl,
+body.inkphase-site-gradient #main .framer-6C9wn{background:transparent!important}
+body.inkphase-site-gradient #main .framer-hoNGa > section:not(.framer-m0yhsr),
+body.inkphase-site-gradient #main .framer-B6VHs > header,
+body.inkphase-site-gradient #main .framer-Fzhkl > header,
+body.inkphase-site-gradient #main .framer-6C9wn > header{background:transparent!important;--token-2ff00286-9ec5-40fa-81e7-0c80f0a1eea1:#f7fbff;--token-ce960de2-2000-4714-9ea1-a190c65c7ed4:#e6f1ff}
+/* The reference's light work, service, and form cards still need dark copy. */
+body.inkphase-site-gradient #main .framer-hoNGa > section [style*="background-color:var(--token-bbf31ffb"],
+body.inkphase-site-gradient #main .framer-hoNGa > section [style*="background-color:var(--token-ce960de2"],
+body.inkphase-site-gradient #main header [style*="background-color:var(--token-bbf31ffb"],
+body.inkphase-site-gradient #main header [style*="background-color:var(--token-ce960de2"]{--token-2ff00286-9ec5-40fa-81e7-0c80f0a1eea1:#101b30;--token-ce960de2-2000-4714-9ea1-a190c65c7ed4:#f5f5f5}
+body.inkphase-site-gradient #main .framer-hoNGa > section:not(.framer-m0yhsr) h2,
+body.inkphase-site-gradient #main .framer-B6VHs > header h1,
+body.inkphase-site-gradient #main .framer-Fzhkl > header h1,
+body.inkphase-site-gradient #main .framer-6C9wn > header h1{color:#f7fbff!important}
+body.inkphase-site-gradient #main .framer-hoNGa > section:not(.framer-m0yhsr) > div > p{color:#dce9ff}
+/* Framer may hydrate the original Home layout; keep relocated sections on their intended route. */
+body.inkphase-showcase-home .framer-1s21fwr,body.inkphase-showcase-home .framer-1pdf24y,body.inkphase-showcase-home .framer-m0yhsr{display:none!important}
+body.inkphase-about-page .framer-kblsb4,body.inkphase-about-page .framer-13fl2ty,body.inkphase-about-page .framer-1h97iyt,body.inkphase-about-page .framer-1dln4dg{display:none!important}
+body.inkphase-about-page .framer-79g6ml-container{display:none!important}
+.inkphase-about-navigation.inkphase-showcase{min-height:0;height:72px;background:#09090a;overflow:visible}
+.inkphase-about-navigation.inkphase-showcase:before{display:none}
+.inkphase-about-navigation .inkphase-showcase-nav{max-width:1100px;height:72px;padding:0 20px}
+@media(max-width:580px){.inkphase-about-navigation.inkphase-showcase{height:88px}.inkphase-about-navigation .inkphase-showcase-nav{height:88px;margin:0;padding:12px 20px;align-content:center}}
+body.inkphase-showcase-home #main .framer-c8mQs{background:transparent!important}
+
+/* Graphite, low-contrast dot texture with deeper pools of shadow. */
+body.inkphase-site-gradient{background:#060708}
+body.inkphase-showcase-home .inkphase-projects-surface{background:radial-gradient(ellipse 44% 28% at 96% 23%,#030405 0%,transparent 100%),radial-gradient(ellipse 48% 27% at 4% 76%,#030405 0%,transparent 100%),radial-gradient(ellipse 72% 62% at 50% 5%,#151719,#090a0c 83%),#070809!important}
+body.inkphase-showcase-home .inkphase-projects-surface:before{background-image:radial-gradient(#c0c6d41d .55px,transparent 1px),radial-gradient(#000b .65px,transparent 1px);background-size:19px 21px,38px 42px;background-position:0 0,9px 11px}
+body.inkphase-site-gradient:not(.inkphase-showcase-home) #main .framer-c8mQs{background-image:radial-gradient(circle,#c0c6d41c .55px,transparent 1px),radial-gradient(ellipse 68% 28% at 88% 24%,#111315 0%,transparent 100%),radial-gradient(ellipse 52% 29% at 8% 73%,#020304 0%,transparent 100%),linear-gradient(180deg,#070809 0%,#0d0e10 47%,#050607 100%)!important;background-size:19px 21px,auto,auto,auto!important}
+body.inkphase-site-gradient:not(.inkphase-showcase-home) #main .framer-c8mQs{background-color:#060708!important}
+body.inkphase-site-gradient .contact-main{background:radial-gradient(ellipse 64% 40% at 50% 24%,#101213,#060708 86%)!important}
+body.inkphase-site-gradient .contact-main:before{background-image:radial-gradient(#aab1be20 .55px,transparent 1px),radial-gradient(#0009 .65px,transparent 1px);background-size:18px 18px,36px 36px;background-position:0 0,9px 12px}

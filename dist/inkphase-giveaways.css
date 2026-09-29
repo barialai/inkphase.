@@ -1,0 +1,21 @@
+.inkphase-giveaways,.inkphase-giveaways *{box-sizing:border-box}
+.inkphase-giveaways{position:relative;padding:90px clamp(18px,4vw,52px) 130px;background:transparent;color:#f7f7f9;font-family:Geist,Inter,Arial,sans-serif}
+.inkphase-giveaways-heading{max-width:800px;margin:0 auto 48px;text-align:center}
+.inkphase-giveaways-eyebrow{display:inline-flex;padding:7px 13px;border:1px solid #44444a;border-radius:28px;background:linear-gradient(#303034,#19191b);font-size:11px;font-weight:600;letter-spacing:.09em}
+.inkphase-giveaways h2{margin:20px 0 15px;font-size:clamp(40px,5vw,68px);font-weight:520;line-height:1.08;letter-spacing:-.05em;text-wrap:balance}
+.inkphase-giveaways-heading p{max-width:570px;margin:0 auto;color:#a9a9af;font-size:16px;line-height:1.6}
+.inkphase-giveaways-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;max-width:1260px;margin:0 auto;align-items:stretch}
+.inkphase-giveaway-card{min-width:0;display:flex;flex-direction:column;overflow:hidden;border:1px solid #3c3c42;border-radius:19px;background:linear-gradient(145deg,#1e1e22,#111113 70%);box-shadow:inset 0 1px 0 #ffffff17,0 14px 36px #0005;transition:border-color .4s,box-shadow .5s,transform .5s cubic-bezier(.22,1,.36,1)}
+.inkphase-giveaway-card:hover{transform:translateY(-5px);border-color:#8ca6d68c;box-shadow:inset 0 1px 0 #ffffff27,0 20px 45px #0008,0 0 29px #678ccb2b}
+.inkphase-giveaway-preview{height:340px;display:grid;place-items:center;padding:18px;overflow:hidden;background:#101014}
+.inkphase-giveaway-preview iframe{display:block;flex:none;max-width:100%;border:0;overflow:hidden;background:#0d0e13;transition:transform .65s cubic-bezier(.22,1,.36,1);pointer-events:none}
+.inkphase-widget-staking{width:300px;height:320px}.inkphase-widget-cardio{width:350px;height:240px}.inkphase-widget-conversion{width:350px;height:320px}
+.inkphase-giveaway-card:hover iframe{transform:scale(1.025)}
+.inkphase-giveaway-details{display:flex;flex-direction:column;gap:20px;padding:25px 25px 27px;flex:1}
+.inkphase-giveaway-details span{color:#9899a1;font-size:11px;font-weight:600;letter-spacing:.09em}.inkphase-giveaway-details h3{margin:9px 0 6px;font-size:clamp(23px,2.1vw,31px);font-weight:550;letter-spacing:-.045em;line-height:1.15}.inkphase-giveaway-details p{margin:0;color:#a9a9af;font-size:14px;line-height:1.5}
+.inkphase-giveaway-details a{display:grid;place-items:center;min-height:42px;width:max-content;margin-top:auto;padding:0 18px;border:1px solid #d8d8db;border-radius:25px;background:#f0f0f2;color:#131316;text-decoration:none;font-size:13px;font-weight:600;transition:background .25s,transform .25s}.inkphase-giveaway-details a:hover{background:#fff;transform:translateY(-2px)}
+.inkphase-giveaways a:focus-visible{outline:2px solid #9ac8ff;outline-offset:4px}
+.inkphase-giveaways.is-motion-ready .inkphase-giveaways-heading,.inkphase-giveaways.is-motion-ready .inkphase-giveaway-card{opacity:0;translate:0 18px;transition:opacity .75s ease,translate .85s cubic-bezier(.22,1,.36,1),transform .5s,box-shadow .5s,border-color .4s}.inkphase-giveaways.is-motion-ready.is-inview .inkphase-giveaways-heading,.inkphase-giveaways.is-motion-ready.is-inview .inkphase-giveaway-card{opacity:1;translate:0 0}.inkphase-giveaway-card:nth-child(2){transition-delay:.12s}.inkphase-giveaway-card:nth-child(3){transition-delay:.24s}
+@media(max-width:1000px){.inkphase-giveaways-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.inkphase-giveaways{padding:72px 16px 90px}.inkphase-giveaways h2{font-size:clamp(36px,8.5vw,54px)}.inkphase-giveaways-heading p{font-size:14px}.inkphase-giveaways-grid{grid-template-columns:1fr;max-width:480px;gap:16px}.inkphase-giveaway-preview{height:310px;padding:10px}.inkphase-widget-staking{width:min(100%,300px)}.inkphase-widget-cardio,.inkphase-widget-conversion{width:min(100%,350px)}.inkphase-giveaway-details{padding:22px}}
+@media(prefers-reduced-motion:reduce){.inkphase-giveaways *, .inkphase-giveaways *:before{transition:none!important}.inkphase-giveaways.is-motion-ready .inkphase-giveaways-heading,.inkphase-giveaways.is-motion-ready .inkphase-giveaway-card{opacity:1!important;translate:none!important}}

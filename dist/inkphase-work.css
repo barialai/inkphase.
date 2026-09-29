@@ -1,0 +1,41 @@
+body.inkphase-showcase-home #main .framer-13fl2ty{display:none!important}
+.inkphase-work,.inkphase-work *{box-sizing:border-box}
+.inkphase-projects-surface{position:relative;isolation:isolate;overflow:hidden;background:radial-gradient(ellipse 72% 62% at 50% 5%,#1b1b1d,#0c0c0e 83%),#09090a}
+.inkphase-projects-surface:before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background-image:radial-gradient(#b8b8be56 .5px,transparent 1px);background-size:21px 24px;mask-image:linear-gradient(to bottom,#000 0%,#0008 90%,transparent 100%)}
+.inkphase-work{position:relative;overflow:hidden;min-height:785px;padding:76px 0 84px;background:transparent;color:#f7f7f7;font-family:Geist,Inter,Arial,sans-serif}
+.inkphase-work-heading{max-width:770px;padding:0 22px;margin:0 auto 38px;text-align:center}
+.inkphase-work-eyebrow{display:inline-flex;align-items:center;gap:7px;padding:7px 12px;border:1px solid #444448;border-radius:30px;background:linear-gradient(160deg,#303033,#1a1a1c);box-shadow:inset 0 1px 0 #ffffff1a,0 3px 8px #0007;color:#ededed;font-size:10px;font-weight:600;letter-spacing:.07em}
+.inkphase-work-eyebrow span{font-size:12px;color:#d8e6ff}
+.inkphase-work h2{font-size:clamp(42px,5.3vw,76px);font-weight:520;line-height:1.07;letter-spacing:-.055em;margin:19px 0 16px}
+.inkphase-work-heading>p{font-size:15px;line-height:1.65;color:#a9a9af;max-width:650px;margin:0 auto;text-wrap:balance}
+.inkphase-work-toggle{display:inline-flex;align-items:center;margin-top:35px;padding:4px;background:linear-gradient(#222224,#131315);border:1px solid #45454a;border-radius:30px;box-shadow:inset 0 1px 1px #ffffff1a,0 5px 14px #0008}
+.inkphase-work-toggle button{border:0;border-radius:25px;background:transparent;color:#d4d4d8;font:inherit;font-size:12px;min-width:103px;height:32px;cursor:pointer;transition:background .2s,color .2s,box-shadow .2s}
+.inkphase-work-toggle button.is-active{background:linear-gradient(180deg,#3c3c40,#27272a);box-shadow:inset 0 1px 0 #ffffff22,0 2px 6px #0009;color:#fff}
+.inkphase-work-toggle button:focus-visible,.inkphase-work-card a:focus-visible{outline:2px solid #8ebcff;outline-offset:3px}
+.inkphase-work-viewport{max-width:1200px;margin:0 auto;overflow:hidden}
+.inkphase-work-list{display:flex;gap:20px;overflow-x:auto;overscroll-behavior-inline:contain;scrollbar-width:none;padding:5px 0 26px}
+.inkphase-work-list::-webkit-scrollbar{display:none}
+.inkphase-work-card{--work-accent:#719eff;position:relative;flex:0 0 calc((100% - 40px)/3);min-height:570px;padding:33px 35px 31px;overflow:hidden;border:1px solid #404044;border-radius:17px;background:radial-gradient(ellipse 48% 30% at 22% 0%,color-mix(in srgb,var(--work-accent) 26%,transparent),transparent 100%),linear-gradient(180deg,#1e1e21,#121214 40%,#101012);box-shadow:inset 0 0 0 3px #080809,0 0 0 1px #ffffff0c,0 10px 30px #0005}
+.inkphase-work-card.tone-2{--work-accent:#d0d3d7}.inkphase-work-card.tone-3{--work-accent:#55bd83}
+.inkphase-work-card:before{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--work-accent),transparent);opacity:.55}
+.inkphase-work-card:after{content:"";position:absolute;top:1px;left:1px;width:70%;height:165px;background-image:radial-gradient(#dfe6ff24 .5px,transparent 1px);background-size:5px 5px;mask-image:linear-gradient(90deg,#000,transparent);pointer-events:none}
+.inkphase-work-card-orbit{position:absolute;right:20px;top:5px;width:132px;height:132px;border:1px solid #b9c3d019;border-radius:50%;background:linear-gradient(90deg,#ffffff0a 50%,transparent 50%);pointer-events:none}.inkphase-work-card-orbit:after{content:"";position:absolute;left:50%;top:0;height:100%;border-left:1px solid #b9c3d018}
+.inkphase-work-card-icon{position:relative;z-index:1;display:grid;place-items:center;width:30px;height:30px;margin-bottom:33px;border:1px solid #ffffff84;border-radius:6px;background:radial-gradient(circle at 35% 26%,#ffffffcd,color-mix(in srgb,var(--work-accent) 65%,#405480) 53%,color-mix(in srgb,var(--work-accent) 80%,#202f42));box-shadow:inset 0 1px 1px #fff8,0 0 16px color-mix(in srgb,var(--work-accent) 54%,transparent);color:#fff;font-size:13px;font-weight:700}
+.inkphase-work-card-badge{position:absolute;top:34px;right:25px;z-index:1;padding:6px 10px;border-radius:25px;border:1px solid #ffffff2f;background:#262629df;box-shadow:0 3px 10px #0006;color:#d5d5d9;font-size:8px;letter-spacing:.04em}
+.inkphase-work-card-name{position:relative;z-index:1;margin:0 0 24px;font-size:21px;font-weight:540;letter-spacing:-.03em}
+.inkphase-work-card-number{display:flex;align-items:baseline;gap:8px;font-size:47px;font-weight:460;letter-spacing:-.045em;line-height:1.15}.inkphase-work-card-number small{font-size:16px;font-weight:400;letter-spacing:0;color:#96979e}
+.inkphase-work-card>p{min-height:68px;margin:17px 0 24px;color:#a4a4aa;font-size:14px;line-height:1.55}
+.inkphase-work-card-link{display:grid;place-items:center;width:100%;height:52px;border:1px solid #ffffff27;border-radius:9px;background:linear-gradient(#38383c,#2b2b2f);box-shadow:inset 0 1px 0 #ffffff2d,0 3px 8px #0008;color:#fff;text-decoration:none;font-size:15px;font-weight:500;transition:border-color .2s,background .2s}.inkphase-work-card-link:hover{border-color:#ffffff86;background:linear-gradient(#46464b,#333338)}
+.inkphase-work-card.tone-2 .inkphase-work-card-link{background:linear-gradient(#fff,#cacbd0);color:#101114;border-color:#fff;box-shadow:inset 0 1px 0 #fff,0 0 0 3px #ffffff19,0 2px 8px #0009}
+.inkphase-work-card-divider{display:flex;align-items:center;gap:10px;margin:33px 0 21px;color:#8f8f93;font-size:10px;white-space:nowrap}.inkphase-work-card-divider:before,.inkphase-work-card-divider:after{content:"";height:1px;background:#4c4c50;flex:1}
+.inkphase-work-card ul{padding:0;margin:0;list-style:none;display:grid;gap:13px;color:#b7b7bc;font-size:12px}.inkphase-work-card li:before{content:"•";color:var(--work-accent);margin-right:9px}
+.inkphase-work-list.is-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));max-width:1100px;margin:auto;padding:5px 24px 26px;overflow:visible}.inkphase-work-list.is-list .inkphase-work-card{width:auto;min-height:490px;flex:none}
+.inkphase-work-list.is-list [data-work-clone]{display:none}
+@media(max-width:1240px){.inkphase-work-viewport{margin:0 20px}}
+@media(max-width:950px){.inkphase-work-card{flex-basis:calc((100% - 20px)/2);padding:28px}.inkphase-work-card-number{font-size:41px}}
+@media(max-width:760px){.inkphase-work{padding:70px 0 64px;min-height:0}.inkphase-work-heading{margin-bottom:29px}.inkphase-work h2{font-size:clamp(42px,9vw,62px)}.inkphase-work-heading>p{font-size:13px}.inkphase-work-viewport{margin:0 18px}.inkphase-work-list{gap:14px}.inkphase-work-card{flex-basis:100%;min-height:520px;padding:28px}.inkphase-work-list.is-list{grid-template-columns:1fr;gap:16px;padding:0 0 20px}.inkphase-work-list.is-list .inkphase-work-card{min-height:470px}}
+@media(prefers-reduced-motion:reduce){.inkphase-work *{scroll-behavior:auto!important;transition:none!important}}
+
+.inkphase-work-card-live{display:flex;flex-direction:column;min-height:530px}.inkphase-work-card-live .inkphase-work-card-name{margin:0 0 31px}.inkphase-work-card-live .inkphase-work-card-number{display:block;min-height:110px;font-size:clamp(31px,3.5vw,43px);line-height:1.07;max-width:280px}.inkphase-work-card-live .inkphase-work-card-number small{display:block;margin-top:13px;font-size:13px;letter-spacing:.02em}.inkphase-work-card-live>p{min-height:0;margin:8px 0 28px}.inkphase-work-card-live .inkphase-work-card-link{margin-top:auto}.inkphase-work-card-live .inkphase-work-card-divider{margin:31px 0 14px}.inkphase-work-card-domain{position:relative;z-index:1;color:#aaaeb6;font-size:12px;overflow-wrap:anywhere}.inkphase-work-list.is-list .inkphase-work-card-live{min-height:450px}@media(max-width:760px){.inkphase-work-card-live{min-height:470px}.inkphase-work-list.is-list .inkphase-work-card-live{min-height:430px}}
+
+.inkphase-work-card-live .inkphase-work-card-link{margin-top:auto}.inkphase-work-card-live{min-height:455px}.inkphase-work-list.is-list .inkphase-work-card-live{min-height:410px}@media(max-width:760px){.inkphase-work-card-live{min-height:430px}.inkphase-work-list.is-list .inkphase-work-card-live{min-height:400px}}
